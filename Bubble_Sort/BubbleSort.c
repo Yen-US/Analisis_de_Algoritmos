@@ -20,12 +20,4 @@ void bubbleSort(int arr[], int n)
                 swapBub(&arr[j], &arr[j+1]);
 }
 
-/* Function to print an array */
-void printArrayBub(int arr[], int size)
-{
-    int i;
-    for (i=0; i < size; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
-}
 

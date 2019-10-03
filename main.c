@@ -15,7 +15,7 @@ int main() {
     printf("Sorted array: \n");
     printArray(arr, n);
     printf("El tiempo que tardó en ordenarlo fue: %f ", timeElapsed);
-//Termina SelectionSort
+//Fin SelectionSort
 
 //Bubble Sort
     int arrBub[] = {64, 34, 25, 600, 12, 22, 11, 90};
