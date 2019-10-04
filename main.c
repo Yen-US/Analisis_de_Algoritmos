@@ -30,6 +30,18 @@ int main() {
 //Fin Bubble Sort
 
 
+//Insertion Sort
+    clock_t begin2 = clock();
+    int arr2[] = { 45, 33, 899, 26, 98,115,74,2,479,36 }; //A values gives randomly to the array
+    int n2 = sizeof(arr2) / sizeof(arr2[0]); //To take the key value in which the array are gonna be split
+    insertionSort(arr2, n2); //Using the method to Insertion Sort
+    printf("Sorted array: \n");
+    printArray(arr2, n2);
+    clock_t end2 = clock();
+    double time_spent2 = (double)(end2 - begin2) / CLOCKS_PER_SEC;
+    printf("El tiempo que tardó en ordenarlo fue: %f ",time_spent2);
+//Fin Insertion Sort
+
 
     return 0;
 }
